@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High Limit Analytics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      color: black;
+      margin: 0;
+      padding: 2rem;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      margin-left: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #b91c1c;
+    }
+    h1 {
+      color: black;
+    }
+    .logo {
+      height: 50px;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .offerings, .offerings div {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      padding: 1rem;
+      border: 1px solid #ddd;
+      background: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="logo.png" alt="High Limit Analytics" class="logo"/>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#offerings">Offerings</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Expert Services for Your AI Journey</h1>
+      <p>We provide high-value data & AI consulting to support government and enterprise transformation.</p>
+    </section>
+
+    <section id="offerings">
+      <h2>Our Offerings</h2>
+      <div class="offerings">
+        <div class="card">Data Strategy & Architecture</div>
+        <div class="card">Data Governance & Integration</div>
+        <div class="card">Business Intelligence & Dashboards</div>
+        <div class="card">AI & Machine Learning Implementation</div>
+        <div class="card">Data Engineering & Cloud Migration</div>
+        <div class="card">Analytics-Focused Consulting Services</div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>With over 12 years of experience in federal healthcare and state & local government, 
+         High Limit Analytics brings deep expertise in data, analytics, and AI transformation.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email us at <a href="mailto:info@highlimitanalytics.com">info@highlimitanalytics.com</a></p>
+    </section>
+  </main>
+</body>
+</html>
